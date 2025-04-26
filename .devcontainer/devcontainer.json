@@ -1,0 +1,20 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:dev-3.13-bullseye",
+  // "features": {
+  //   "ghcr.io/devcontainers/features/python:1": {}
+  // },
+  // docker pull mcr.microsoft.com/devcontainers/python:dev-3.13-bullseye
+  // docker pull mcr.microsoft.com/devcontainers/python:3.13
+  "postCreateCommand": "pip3 install --user -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // "ms-python.autopep8",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "charliermarsh.ruff"
+      ]
+    }
+  }
+}

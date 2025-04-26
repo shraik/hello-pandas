@@ -1,0 +1,6 @@
+pandas
+pyarrow
+openpyxl
+python-calamine
+XlsxWriter
+
